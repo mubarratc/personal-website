@@ -27,7 +27,8 @@ main {
   padding: 8px;
 }
 .head-head-desc {
-  display: flex;
+  display: inline;
+  justify-content: left;
 }
 .description {
 }
