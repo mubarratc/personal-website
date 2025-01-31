@@ -3,10 +3,6 @@ header {
   opacity: 0;
 }
 
-.head-message { 
-  text 
-}
-
 #main-img {
   width: auto;
   height: auto;
@@ -42,7 +38,7 @@ body {
   margin: 10px auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Vernpm dana, sans-serif;
-  background-color: #E7E5DF;
+  background-color: #e7e5df;
 }
 
 main {
@@ -63,13 +59,13 @@ main {
 }
 
 button {
-  background-color: #7A82AB;
+  background-color: #7a82ab;
   border: solid 1px #334234;
   border-radius: 999999px;
 }
 
 footer {
-  background: #E7E5DF;
+  background: #e7e5df;
   display: flex;
   justify-content: center;
   align-items: end;
