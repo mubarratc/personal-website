@@ -1,3 +1,10 @@
 let counterText = document.getElementById("counterEl");
-console.log(counterText);
-counterText.textContent = "1";
+counterText.textContent = 0;
+
+function decrease() {
+  counterText.textContent--;
+}
+
+function increase() {
+  counterText.textContent++;
+}
