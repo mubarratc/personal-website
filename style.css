@@ -34,8 +34,6 @@ a {
 
 body {
   text-align: center;
-  padding: 10px auto;
-  margin: 10px auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Vernpm dana, sans-serif;
   background-color: #e7e5df;
@@ -43,8 +41,9 @@ body {
 
 main {
   text-align: left;
-  padding: 0px;
-  margin: 0px;
+  margin-top: 50px;
+  padding-right: 425px;
+  padding-left: 425px;
 }
 
 .head-card {
@@ -54,6 +53,7 @@ main {
   padding: 8px;
 }
 .head-desc {
+  margin-top: 0px;
   margin-left: 4px;
   color: #334234;
 }
@@ -65,10 +65,6 @@ button {
 }
 
 footer {
-  background: #e7e5df;
-  display: flex;
-  justify-content: center;
-  align-items: end;
   min-height: 100px;
   height: auto;
   width: 100%;
