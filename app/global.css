@@ -1,5 +1,40 @@
 @import 'tailwindcss';
 
+@variant dark (&:where(.dark, .dark *));
+
+/* Explicit dark mode styles */
+.dark body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+html:not(.dark) body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode for footer links */
+.dark footer ul {
+  color: #d4d4d4 !important;
+}
+
+.dark footer a:hover {
+  color: #f5f5f5 !important;
+}
+
+/* Dark mode for blog posts */
+.dark a p {
+  color: #e5e5e5 !important;
+}
+
+.dark .text-neutral-600 {
+  color: #a3a3a3 !important;
+}
+
+.dark .text-neutral-900 {
+  color: #e5e5e5 !important;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -17,16 +52,11 @@
   --sh-entity: #e25a1c;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --sh-class: #4c97f8;
-    --sh-identifier: white;
-    --sh-keyword: #f47067;
-    --sh-string: #0fa295;
-  }
-  html {
-    color-scheme: dark;
-  }
+:where(.dark, .dark *) {
+  --sh-class: #4c97f8;
+  --sh-identifier: white;
+  --sh-keyword: #f47067;
+  --sh-string: #0fa295;
 }
 
 html {
