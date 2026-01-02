@@ -7,7 +7,7 @@ export default function Page() {
         Mahdin Choudhury
       </h1>
       <p className="mb-4">
-        {`Currently the Founder and CEO of CharityStack. Previously a PM at Apple that worked on Applied AI applications across the Siri and Messages teams. At my core I'm a product builder, and hope to build real impact.`}
+        {`Founder & CEO of CharityStack, building payment, fundraising, and operational infrastructure for nonprofits. Former Product Manager at Apple, working on applied AI across Siri and Messages. I focus on first-principles product design, long-term systems, and software that compounds in real-world impact.`}
       </p>
       <div className="my-8">
         <BlogPosts />
